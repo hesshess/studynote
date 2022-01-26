@@ -64,8 +64,8 @@ console.log(fail);
 let k = 1;
 console.log(!k); //숫자1은 true에 대응되므로 not true -> false
 
-let 1 = 0;
-console.log(!1) //숫자0은 false에 대응되므로 not false -> true
+let i = 0;
+console.log(!i) //숫자0은 false에 대응되므로 not false -> true
 
 let str1 = "Hello";
 console.log(!str1); // 내용이 있는 문장은  true. not true -> false
