@@ -6,6 +6,8 @@ for(let i=10; i>10; i--){
     {console.log(i)}
 }
 
+
+
 for (let i = 10; i <= 10; --i){
     if (i % 2 == 1){
     console.log(i);}
@@ -119,6 +121,7 @@ for (let i =0; i<4; i++){
 
 for (let i =0 ; i < 4; i++){
     console.log(i);
+ 
 }
 
 
@@ -141,24 +144,14 @@ for (let i =0 ; i < 4; i++){
 for (let i = 1; i < 8; i++) {
     //바깐의 반복문이 '행'을 담당 -> 7개 행 생성
     let str = '';
+  
     for (let j = 1; j < i + 1; j++) {
       //안쪽의 반복문이 '열'을 담당
-    str += j;
+      str += j;
     }
     console.log(str);
-}
+  }
   
-
-for (let i = 1; i < 8; i++){
-    let k = ""
-    for(let j = 1; j < 8; j++)
-
-}
-
-
-
-
-
 
 
 ## 문제 7.
