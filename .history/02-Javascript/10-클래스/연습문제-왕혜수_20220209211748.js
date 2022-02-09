@@ -1,5 +1,5 @@
 //##문제1
-function Student(kor, eng, math) {
+function Student(kor, eng, mth) {
   this._kor = kor;
   this._eng = eng;
   this._math = math;
