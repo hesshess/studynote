@@ -60,30 +60,3 @@ const results = arr4.filter(function (v, i, arr) {
 });
 
 console.log(results);
-
-/**배열 정렬 */
-const arr5 = [2, 1, 15];
-//큌정렬 알고리즘은 사용하여 배열 자체를 정렬한다.
-//--> 배열의 모든 원소를 문자열로 취급하기 때문에 글자 정렬기준이 적용된다
-//arr5.sort();
-//console.log(arr5);
-
-//sort 함수도 정렬 조건을 콜백함수로 처리한다
-arr5.sort(function (a, b) {
-  //console.log("a=%s, b=%s", a,b);
-
-  //리턴값이 양수인 경우 : a가 b보다 크다
-  //리턴값이 음수인 경우 : b가 a보다 크다
-  if (a > b) {
-    return 1;
-  } else {
-    return -1;
-  }
-});
-
-console.log(arr5);
-
-/**역순배치 */
-let arr6 = [1, 2, 3, 4, 5];
-arr6.reverse();
-console.log(arr6);
